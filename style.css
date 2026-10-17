@@ -4,14 +4,16 @@
 
 body {
     margin: 0;
-    background: #fff0f5;
-    color: #eb78aa;
+    background: #fad0c4;
+    color: #ce6693;
     font-family: Arial, sans-serif;
     text-align: center;
 }
 
 header {
-    background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+    padding: 20px 20px;
+    background: linear-gradient(to bottom, #ff9a9e, #fad0c4);
+    color: beige;
 }
 
 header h1 {
@@ -21,6 +23,7 @@ header h1 {
 
 header p {
     font-size: 22px;
+    color: beige;
 }
 
 button {
@@ -28,7 +31,7 @@ button {
     padding: 15px 30px;
     border: none;
     border-radius: 30px;
-    background: #ff4f81;
+    background: #ff9a9e;
     color: white;
     font-size: 18px;
     font-weight: bold;
@@ -48,7 +51,7 @@ main {
 }
 
 section {
-    background: white;
+    background: beige;
     padding: 40px;
     margin-bottom: 30px;
     border-radius: 20px;
@@ -57,16 +60,17 @@ section {
 
 section h2 {
     font-size: 32px;
-    color: #ff4f81;
+    color: #ff9a9e;
 }
 
 section p {
     font-size: 18px;
-    line-height: 1.8;
+    line-height: 1.4;
+    color: #ff9a9e;
 }
 
 footer {
     padding: 30px;
-    background: #3b1f2b;
-    color: white;
+    background: linear-gradient(to top, #ff9a9e, #fad0c4);
+    color: beige;
 }

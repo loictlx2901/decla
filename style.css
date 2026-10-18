@@ -19,11 +19,15 @@ header {
 header h1 {
     font-size: 55px;
     margin-bottom: 20px;
+    font-family: pacifico;
+    font-style: italic;
 }
 
 header p {
     font-size: 22px;
     color: beige;
+    font-family: pacifico;
+    font-style: italic;
 }
 
 button {
@@ -62,12 +66,15 @@ section {
 section h2 {
     font-size: 32px;
     color: #ff9a9e;
+    font-family: pacifico;
+    font-style: italic;
 }
 
 section p {
     font-size: 18px;
     line-height: 1.4;
     color: #ff9a9e;
+    font-family: pacifico;
 }
 
 footer {
